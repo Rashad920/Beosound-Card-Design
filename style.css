@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: arial;
+}
+body {
+  background: #ddd;
+}
+.center {
+  width: 700px;
+  height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  display: flex;
+  box-shadow: 8px 8px 18px rgb(173, 173, 173), -8px -8px 18px #fff;
+  border-radius: 10px;
+}
+.imgPart {
+  width: 250px;
+  height: 300px;
+  position: relative;
+  padding: 20px 0px;
+  background: #ffffff;
+}
+.imgPart img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pricing {
+  padding: 20px;
+}
+.heading {
+  display: flex;
+  margin-bottom: 35px;
+}
+.heading h1 {
+  font-size: 20px;
+  margin-right: 144px;
+}
+.heading span {
+  font-weight: bold;
+}
+.weightSizeWaterProof {
+  display: flex;
+  height: 100px;
+  margin-bottom: 48px;
+}
+.weight,
+.size,
+.WaterProof {
+  width: 135px;
+  height: 20px;
+}
+
+.weightSizeWaterProof i {
+  font-size: 30px;
+  color: #6c6c6c;
+}
+.buttons {
+  display: flex;
+}
+.buttons .delete,
+.edit,
+.publish {
+  padding: 8px 12px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  margin-right: 165px;
+  background: #6f6f6f;
+  color: white;
+}
+.buttons .edit {
+  margin-right: 10px;
+  background: #b0845f;
+}
+.buttons .publish:last-child {
+  margin-right: 0px;
+  background: #3f3f3f;
+}
